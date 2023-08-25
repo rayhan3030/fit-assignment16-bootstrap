@@ -1,0 +1,131 @@
+/* navbar css starts */
+
+#navbarNavDropdown ul li a{
+    color: white;
+    font-weight: 600;
+}
+#navbarNavDropdown ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+/* navbar css ednss */
+
+
+/* Slider css starts  */
+
+
+.carousel {
+    background-color: #333;
+}
+.carousel-inner {
+    border-radius: 10px;
+}
+.carousel-item {
+    text-align: center;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+
+/* Slider css endss  */
+
+.headline{
+    color: white;
+}
+.headline :hover{
+    color: rgb(255, 255, 255);
+    background: rgb(17, 17, 17);
+}
+
+
+
+.imgs{
+    
+    height: 150px;
+    /* width: 200px; !important */
+    /* margin-left: 100px; !important */
+}
+
+
+/* Styling for the left section */
+.left-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Styling for the right section */
+.right-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styling for the image */
+.left-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+/* Customize the footer background color and padding */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Style for the footer links */
+.footer a {
+    color: #fff;
+}
+
+/* Style for the footer links on hover */
+.footer a:hover {
+    color: #ffc107; /* Change the color on hover */
+    text-decoration: none; /* Remove underline */
+}
+
+
+
+.news-ticker {
+    background-color: #cf1616;
+    color: #fff;
+    padding: 5px;
+    overflow: hidden;
+    
+    
+}
+
+.news-ticker .carousel-item {
+    text-align: center;
+    padding: 5px;
+    white-space: nowrap;
+    animation: ticker 10s linear infinite;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.news-ticker .carousel-control-prev,
+.news-ticker .carousel-control-next {
+    background: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+
